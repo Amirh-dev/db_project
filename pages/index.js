@@ -6,10 +6,14 @@ const HomePage = () => {
     <div>
       <h1>Welcome to the App</h1>
       <div>
-        <Link href="/seller">Seller</Link>
+        <Link className="button" href="/seller">
+          Seller
+        </Link>
       </div>
       <div>
-        <Link href="/customer">Customer</Link>
+        <Link className="button" href="/customer">
+          Customer
+        </Link>
       </div>
     </div>
   );
