@@ -84,6 +84,7 @@ const ProfileModal = ({ isOpen, onClose }) => {
               headers: {
                 'Content-Type': 'application/json',
               },
+              
 
               body: JSON.stringify({ ...updatedUser, UserID: data[0].UserID }),
             })
