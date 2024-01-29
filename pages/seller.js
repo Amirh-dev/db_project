@@ -1,7 +1,9 @@
 import React from "react";
 import Link from "next/link";
 
+
 const SellerPage = () => {
+  
   return (
     <div>
       <h1>Seller Page</h1>

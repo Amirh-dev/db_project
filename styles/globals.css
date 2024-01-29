@@ -31,7 +31,8 @@
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  max-width: 80%;
+  min-width: 80%;
+  z-index: 11;
   overflow: auto;
 }
 
@@ -73,4 +74,27 @@
   font-size: 20px;
   color: #333;
   outline: none;
+}
+
+.button{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 10px 10px;
+  mouse: pointer;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.input{
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
 }
